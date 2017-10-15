@@ -37,7 +37,7 @@ def _iszero(x):
 
 
 class DeferredVector(Symbol, NotIterable):
-    """A vector whose components are deferred (e.g. for use with lambdify)
+    """A vector whose components are deferred (e.g. for use with lambdify).
 
     Examples
     ========
